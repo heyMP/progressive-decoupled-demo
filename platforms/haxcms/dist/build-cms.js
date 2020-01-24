@@ -4,3 +4,4 @@ import "@lrnwebcomponents/hax-body/hax-body.js";
 import "@lrnwebcomponents/hax-body-behaviors/hax-body-behaviors.js";
 // common in CMSs
 import "@lrnwebcomponents/cms-hax/cms-hax.js";
+import "@lrnwebcomponents/r-coder/r-coder.js";
