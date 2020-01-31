@@ -1,0 +1,40 @@
+version: "2"
+services:
+
+  glossary-service:
+    image: heymp/glossary-service:0.1.1
+    ports:
+      - '3000:4000'
+    environment: 
+      MONGO_URL: glossary-mongo:27017
+    depends_on:
+      - glossary-mongo
+
+  glossary-mongo:
+    image: mongo
+    restart: always
+    volumes:
+      - glossary-data:/data/db
+
+  r:
+    image: heymp/r-service
+    ports: 
+      - 3001:3000
+
+  news-service:
+    image: heymp/news-service
+    ports:
+      - 3002:4000
+    environment:
+      NEWS_API_KEY: 6dcbd2c819824b098f93819aed773a7c
+
+  redis:
+    image: redis:4.0.5-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - news-service-data:/data
+    
+
+volumes:
+  glossary-data:
+  news-service-data:
