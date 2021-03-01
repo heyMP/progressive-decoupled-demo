@@ -3068,9 +3068,9 @@ clean-css@2.2.x:
     commander "2.2.x"
 
 clipboard@^2.0.0:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.4.tgz#836dafd66cf0fea5d71ce5d5b0bf6e958009112d"
-  integrity sha512-Vw26VSLRpJfBofiVaFb/I8PVfdI1OxKcYShe6fm0sP/DtmiWQNCjhM/okTvdCo0G+lMMm1rMYbk4IK4x1X+kgQ==
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
+  integrity sha512-g5zbiixBRk/wyKakSwCKd7vQXDjFnAMGHoEyBogG/bw9kTD9GvdAvaoRR1ALcEzt3pVKxZR0pViekPMIS0QyGg==
   dependencies:
     good-listener "^1.2.2"
     select "^1.1.2"
@@ -3150,8 +3150,9 @@ css@1.6.x:
     css-parse "1.7.0"
     css-stringify "1.4.1"
 
-"debug@github:ngokevin/debug#noTimestamp":
+debug@ngokevin/debug#noTimestamp:
   version "2.2.0"
+  uid ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
 decode-uri-component@^0.2.0:
@@ -3198,8 +3199,9 @@ detective@^4.3.1:
     acorn "^5.2.1"
     defined "^1.0.0"
 
-"document-register-element@github:dmarcos/document-register-element#8ccc532b7":
+document-register-element@dmarcos/document-register-element#8ccc532b7:
   version "0.5.4"
+  uid "8ccc532b7f3744be954574caf3072a5fd260ca90"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
 dom-walk@^0.1.0:
@@ -3877,9 +3879,9 @@ preserve@^0.2.0:
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
 prismjs@^1.11.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.15.0.tgz#8801d332e472091ba8def94976c8877ad60398d9"
-  integrity sha512-Lf2JrFYx8FanHrjoV5oL8YHCclLQgbJcVZR+gikGGMqz6ub5QVWDTM6YIwm3BuPxM/LOV+rKns3LssXNLIf+DA==
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
+  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -4095,9 +4097,9 @@ timed-out@^4.0.1:
   integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
 
 tiny-emitter@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
-  integrity sha512-2NM0auVBGft5tee/OxP4PI3d8WItkDM+fPnaRAVo6xTDI2knbz9eC5ArWGqtGlYqiH3RU5yMpdyTTO7MguC4ow==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 trim@0.0.1:
   version "0.0.1"
